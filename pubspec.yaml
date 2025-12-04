@@ -93,6 +93,6 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
   fonts:
-     - family: Saira
+     - family: MajorMonoDisplay
        fonts:
-         - asset: assets/fonts/saira/Saira-VariableFont_wdth,wght.ttf
+         - asset: assets/fonts/major_mono_display/MajorMonoDisplay-Regular.ttf

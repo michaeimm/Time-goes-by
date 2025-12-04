@@ -7,7 +7,7 @@ const timeTextStyle = TextStyle(
   height: 1.2,
   fontWeight: FontWeight.bold,
   color: Colors.white,
-  fontFamily: 'Saira'
+  fontFamily: 'MajorMonoDisplay'
 );
 
 const clockBorderColor = Color(0xFF6F2B0A);
@@ -75,7 +75,6 @@ class TimeWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      spacing: 4,
       children: [HourWidget(), SplitWidget(), MinuteWidget()],
     );
   }
